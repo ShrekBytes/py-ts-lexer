@@ -25,14 +25,14 @@ A fast and lightweight lexical analyzer for Python and TypeScript written in C. 
 
 ## Installation
 
-```bash
+```
 git clone https://github.com/ShrekBytes/py-ts-lexer.git
 cd py-ts-lexer
 make
 ```
 
 Or compile manually:
-```bash
+```
 gcc -Wall -Wextra -g -o lexer lexer.c
 ```
 
