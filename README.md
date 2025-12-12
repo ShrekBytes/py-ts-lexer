@@ -4,15 +4,15 @@ A fast and lightweight lexical analyzer for Python and TypeScript written in C. 
 
 ## Features
 
-- 🔍 **Multi-language support** - Python (`.py`) and TypeScript/JavaScript (`.ts`, `.js`)
-- 💬 **Comment extraction** - Single-line and multi-line comments with line tracking
-- 🔤 **Tokenization** - Breaks code into keywords, identifiers, literals, operators, and delimiters
-- ⚠️ **Error detection** - Four types of error detection:
+- **Multi-language support** - Python (`.py`) and TypeScript (`.ts`)
+- **Comment extraction** - Single-line and multi-line comments with line tracking
+- **Tokenization** - Breaks code into keywords, identifiers, literals, operators, and delimiters
+- **Error detection** - Four types of error detection:
   - Misspelled keywords (with suggestions)
   - Type mismatches
   - Undeclared identifiers
   - Invalid operators
-- 🎨 **Color-coded output** - Terminal interface with syntax highlighting
+- **Color-coded output** - Terminal interface with syntax highlighting
 
 ## Screenshots
 
@@ -26,8 +26,8 @@ A fast and lightweight lexical analyzer for Python and TypeScript written in C. 
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/lexical-analyzer.git
-cd lexical-analyzer
+git clone https://github.com/ShrekBytes/py-ts-lexer.git
+cd py-s-lexer
 make
 ```
 
@@ -44,9 +44,6 @@ gcc -Wall -Wextra -g -o lexer lexer.c
 
 # Analyze TypeScript file
 ./lexer script.ts
-
-# Analyze JavaScript file
-./lexer script.js
 ```
 
 ## Error Detection Examples
@@ -103,12 +100,12 @@ make run-typescript # Build and test with test.ts
 - **Test Coverage**: 22 test cases (100% pass rate)
 
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug or have a feature request?
 [Open an issue](../../issues) or submit a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
