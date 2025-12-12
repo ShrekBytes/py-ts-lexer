@@ -27,7 +27,7 @@ A fast and lightweight lexical analyzer for Python and TypeScript written in C. 
 
 ```bash
 git clone https://github.com/ShrekBytes/py-ts-lexer.git
-cd py-s-lexer
+cd py-ts-lexer
 make
 ```
 
@@ -108,4 +108,3 @@ Found a bug or have a feature request?
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
