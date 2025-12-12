@@ -18,11 +18,10 @@ A fast and lightweight lexical analyzer for Python and TypeScript written in C. 
 
 ![Tokenization Output](screenshots/tokenization.png)
 
+![Comment](screenshots/comments.png)
+
 ![Error Detection](screenshots/errors.png)
 
-![Python Analysis](screenshots/python_example.png)
-
-![TypeScript Analysis](screenshots/typescript_example.png)
 
 ## Installation
 
@@ -103,14 +102,13 @@ make run-typescript # Build and test with test.ts
 - **Time Complexity**: O(n) for typical files
 - **Test Coverage**: 22 test cases (100% pass rate)
 
-## Contributing
 
-Contributions welcome! Feel free to:
-- Report bugs
-- Suggest features
-- Add language support
-- Improve error detection
+## 🤝 Contributing
 
-## License
+Found a bug or have a feature request?
+[Open an issue](../../issues) or submit a pull request.
 
-MIT License
+## 📄 License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
